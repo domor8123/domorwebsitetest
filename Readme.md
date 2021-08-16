@@ -1,2 +1,2 @@
-# ** Little Domor Frontend website design test**
+# *Little Domor Frontend website design test*
 This is a website that allows me to test some frontend designs beofre pushing the deisgn to the main website. If you have any recommendations or would like to support my projects please feel free to eamil me at domor8123@gmail.com
