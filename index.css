@@ -13,8 +13,8 @@
     padding: 30px 30px 30px 50px;
 }
 .masthead {
-    height: 100vh;
-    min-height: 500px;
+    width: 100vh;
+    min-width: 500px;
     background-image: url('./images/Banner.png');
     background-size: cover;
     background-position: center;
