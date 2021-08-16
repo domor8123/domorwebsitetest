@@ -12,6 +12,14 @@
     background-color: #ffd1dc;
     padding: 30px 30px 30px 50px;
 }
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('./images/Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 body{
     background-color: #ffd1dc;
 }
