@@ -15,7 +15,7 @@
 .masthead {
     height: 100vh;
     min-height: 100px;
-    background-image: url('./images/Banner.png');
+    background-image: url('./images/IndexBanner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,10 +29,7 @@ body{
 h1,h2,h4,p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a{
-    color: black;
-}
-a:hover{
+a, a:hover{
     color: black;
 }
 .questions {
