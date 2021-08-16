@@ -59,40 +59,31 @@
                 </div>
             </div>
         </div>
-        <div id="about">
+        <form method="POST" action="./member-signup-Success">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 align="center"><strong>About me</strong></h2>
-                    <details class="questions">
-                        <summary><strong>Who are you?</strong></summary>
-                        <p><strong>I am just a little femboy who enjoys coding and playing video games. If you have any recommendations for what I should do next 
-                        as a project pleaase don't hesitate to ask me via email. 
-                            </strong></p>
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What do you like?</strong></summary>
-                        <p> <strong>I enjoy cuddles, fluffy stuff (ex: stuffies or fluffy animals), computer/tech, and coding. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What do you dislike?</strong></summary>
-                        <p> <strong>I don't really dislike much things because I am a very care free person, but I do get very scared easily. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What are my hobbies?</strong></summary>
-                        <p> <strong>I enjoy coding, computers/tech, listening to music, and playing video games. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What programming languages do you know?</strong></summary>
-                        <p> <strong> My main language is Python, but I am fairly fluent in Java, HTML/CSS, MYSQL, PGSQL, and shell scripting/batch scripting. 
-                            However, I am fairly new to Objective C/C++, php, js, x86_64 assembly.
-                            </strong></p>
-                    </details>
+                    <h1 align="center"><strong>Sign Up</strong></h1>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div align="center">
+                        <input type="text" name="Username" id="Username" class="form-control" placeholder="username" required><br>
+                        <input type="password" name="Password" id="Password" class="form-control" placeholder="password" required><br>
+                        <input type="password" name="checkPassword" id="checkPassword" class="form-control" placeholder=" confirm password" required><br>
+                        <input type="email" name="Email" id="Email" class="form-control" placeholder="email" required><br>
+                        <input type="email" name="checkEmail" id="checkEmail" class="form-control" placeholder="confirm email" required><br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div align="center">
+                        <button id="Signup" type="submit" value="signup">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </form> 
     </body>
     <footer>
         <div class="row">

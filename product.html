@@ -50,54 +50,42 @@
             </div>
         </nav>
         <h2 class="gap"></h2>
-        <div class="show-picture">
-            <div class="row">
-                <div class="col-md-12">
-                    <div align="center">
-                        <img src="/static/Banner.png">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                    <div style="margin-bottom: 1.25rem;">
+                        <div class="show-picture">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div align="center">
+                                        <img src="/static/Banner.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 align="center"><strong> I have the right to refund and refuse an order if I don't wish to do the order. The order will typically take at most 2 weeks from the time ordered. 
+                        If you have any questions or concerns about your order feel free to <a href="./contact-me">Contact Me </a></strong></h3>
+                        <select id="item-options">
+                        <option value="Custom SFW Pics  (5 Pics.)" price="5">Custom SFW(Safe For Work) Pics (5 pics.) - 5 USD</option>
+                        <option value="Custom SFW Pics (10 Pics.)" price="10">Custom SFW(Safe For Work) Pics (10 pics.) - 10 USD</option>
+                        <option value="Coding Project" price="30">Coding Project - 30 USD</option>
+                        </select>
+                        <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option></select>
+                    </div>
+                    <div id="paypal-button-container"></div>
                     </div>
                 </div>
+                <script src="https://www.paypal.com/sdk/js?client-id={{paypalClient}}" data-sdk-integration-source="button-factory"></script>
+                <script src="/static/paypal.js"></script>
             </div>
         </div>
-        <div id="about">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 align="center"><strong>About me</strong></h2>
-                    <details class="questions">
-                        <summary><strong>Who are you?</strong></summary>
-                        <p><strong>I am just a little femboy who enjoys coding and playing video games. If you have any recommendations for what I should do next 
-                        as a project pleaase don't hesitate to ask me via email. 
-                            </strong></p>
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What do you like?</strong></summary>
-                        <p> <strong>I enjoy cuddles, fluffy stuff (ex: stuffies or fluffy animals), computer/tech, and coding. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What do you dislike?</strong></summary>
-                        <p> <strong>I don't really dislike much things because I am a very care free person, but I do get very scared easily. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What are my hobbies?</strong></summary>
-                        <p> <strong>I enjoy coding, computers/tech, listening to music, and playing video games. 
-                            </strong></p> 
-                    </details>
-                    <details class="questions">
-                        <summary><strong>What programming languages do you know?</strong></summary>
-                        <p> <strong> My main language is Python, but I am fairly fluent in Java, HTML/CSS, MYSQL, PGSQL, and shell scripting/batch scripting. 
-                            However, I am fairly new to Objective C/C++, php, js, x86_64 assembly.
-                            </strong></p>
-                    </details>
-                </div>
-            </div>
-        </div>
+        
     </body>
     <footer>
         <div class="row">
             <div class="col-md-4">
-                <div align="center">
+                <div align="cenkter">
                     <img src="/static/Logo.png">
                 </div>
             </div>
