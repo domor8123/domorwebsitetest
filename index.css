@@ -20,6 +20,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.title, .description {
+    color: #ff527c;
+}
 body{
     background-color: #ffd1dc;
 }
