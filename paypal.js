@@ -84,19 +84,3 @@ paypal.Buttons({
 }).render('#paypal-button-container');
 }
 initPayPalButton();
-
-function custom_template(obj){
-    var data = $(obj.element).data();
-    var text = $(obj.element).text();
-    if(data && data['img_src']){
-        img_src = data['img_src'];
-        template = $("<div class = \"row\" ><div class = \"col-md-12\"><img src=\"" + img_src + "\" /><p text-align:center;\">" + text + "</p></div></div>");
-        return template;
-    }
-}
-var options = {
-'templateSelection': custom_template,
-'templateResult': custom_template,
-}
-$('#item-options').select2(options);
-$('.select2-container--default .select2-selection--single');
