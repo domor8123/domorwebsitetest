@@ -15,12 +15,12 @@
 .masthead {
     height: 100vh;
     min-height: 500px;
+    max-width: 100vw;
     background-image: url('./images/IndexBanner.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.mobile{display: none;}
 .title, .description {
     color: #ff527c;
 }
