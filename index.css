@@ -20,6 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.mobile{display: none;}
 .title, .description {
     color: #ff527c;
 }
@@ -137,6 +138,10 @@ input[type=submit]:hover {
     .show-picture{
       display: none;
     }
+    .mobile{
+        display: inline-block;
+    }
+    .laptop{display: none;}
   }
   .tipLinks{
     position: relative;
