@@ -31,7 +31,7 @@ h1,h2,h4,p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a, a:hover{
-    color: black;
+    color: #ff527c;
 }
 .questions {
     background-color: #ffd1dc;
@@ -140,7 +140,7 @@ input[type=submit]:hover {
     background-color: #ffd1dc;
 }
 .tipLinksDropdownContent a {
-    color: #000;
+    color: #ff527c;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
