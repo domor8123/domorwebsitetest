@@ -55,6 +55,9 @@ a, a:hover{
     overflow: hidden;
     padding-left: 10%;
 }
+.contactform-mobile{
+    display: none;
+}
 button {
     background-color: #ffd1dc;
     border: none;
@@ -128,6 +131,12 @@ input[type=submit]:hover {
 @media(max-width:1000px){
     .show-picture{
       display: none;
+    }
+    .contactform {
+        display: none;
+    }
+    .contactform-mobile{
+        display: inline-block;
     }
   }
   .tipLinks{
