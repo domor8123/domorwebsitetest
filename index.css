@@ -13,7 +13,7 @@
     padding: 30px 30px 30px 50px;
 }
 .masthead {
-    height: 100vh;
+    height: 1080px;
     min-height: 100px;
     background-image: url('./images/IndexBanner.png');
     background-size: cover;
