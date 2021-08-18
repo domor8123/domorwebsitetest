@@ -135,6 +135,15 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #ff527c;
 }
+textarea{
+    width: 100%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ffd1dc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 @media(max-width:1000px){
     .show-picture{
       display: none;
