@@ -34,6 +34,12 @@ function paypal5sfw() {
         console.log(err);
       }
     }).render('#paypal-button-container');
+    var exeucted = false;
+    return function(){
+        if (!exeucted) {
+            exeucted = true;
+        }
+    };
   }
   function toggle_visibility(id) {
     targetDiv = document.getElementById(id);
