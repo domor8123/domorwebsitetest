@@ -43,5 +43,5 @@ function initPayPalButton() {
     }).render('#paypal-button-container');
   }
   function toggle_visibility(id) {
-    document.getElementById(id).style.display = (document.getElementById(id).style.display !== "none") ? "none" : "inline-block";
+    document.getElementById(id).style.display = (document.getElementById(id).style.display !== "none") ? "none" : "block";
 }
