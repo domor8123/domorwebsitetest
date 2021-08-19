@@ -1,5 +1,11 @@
 function paypal5sfw() {
-    myfunc = function(){};
+    var executed = false;
+    return function() {
+        if (!executed) {
+            executed = true;
+            // do something
+        }
+    };
     paypal.Buttons({
       style: {
         shape: 'pill',
