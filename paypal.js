@@ -38,12 +38,12 @@ function paypal5sfw() {
   function toggle_visibility(id) {
     targetDiv = document.getElementById(id);
     if (targetDiv.style.display !== "none") {
-        removepaypal("paypal-buttons paypal-buttons-context-iframe paypal-buttons-label-paypal paypal-buttons-layout-vertical");
         targetDiv.style.display = "none";
       } 
     else {  
         paypal5sfw();
         targetDiv.style.display = "block";
+        removepaypal("paypal-buttons paypal-buttons-context-iframe paypal-buttons-label-paypal paypal-buttons-layout-vertical");
       }
 }
 function removepaypal(ClassName){
