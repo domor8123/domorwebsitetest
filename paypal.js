@@ -36,5 +36,10 @@ function paypal5sfw() {
     }).render('#paypal-button-container');
   }
   function toggle_visibility(id) {
-    document.getElementById(id).style.display = (document.getElementById(id).style.display !== "none") ? "none" : "block";
+    targetDiv = document.getElementById(id);
+    if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+      } else {
+        targetDiv.style.display = "block";
+      }
 }
