@@ -47,10 +47,6 @@ function paypal5sfw() {
       }
 }
 function removepaypal(ClassName){
-    targetDiv = document.getElementsByClassName(ClassName)[0];
-    if (targetDiv.style.display !== "none") {
-        targetDiv.style.display = "none";
-      } else {
-        targetDiv.style.display = "block";
-      }
+    targetDiv = document.getElementsByClassName(ClassName)[0]; 
+    targetDiv.style.display = "none";
 }
