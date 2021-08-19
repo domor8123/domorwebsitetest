@@ -215,6 +215,6 @@ textarea{
     .drop-down .select-list li span:focus {      
     opacity: 1;      
     } 
-.paypal5SFW{
+#paypal5SFW{
     display: none;
 }

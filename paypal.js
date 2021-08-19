@@ -1,5 +1,11 @@
 function initPayPalButton() {
-    document.getElementsByClassName('paypal5SFW')[0].style.display = 'inline-block';
+    const targetDiv = document.getElementById('paypal5SFW');
+    if (targetDiv.style.display !== "none") {
+        targetDiv.style.display = "none";
+    }
+    else {
+        targetDiv.style.display = "block";
+    }
     paypal.Buttons({
       style: {
         shape: 'pill',
