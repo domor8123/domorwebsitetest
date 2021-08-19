@@ -38,9 +38,19 @@ function paypal5sfw() {
   function toggle_visibility(id) {
     targetDiv = document.getElementById(id);
     if (targetDiv.style.display !== "none") {
+        removepaypal("paypal-buttons paypal-buttons-context-iframe paypal-buttons-label-paypal paypal-buttons-layout-vertical");
+        targetDiv.style.display = "none";
+      } 
+    else {  
+        paypal5sfw();
+        targetDiv.style.display = "block";
+      }
+}
+function removepaypal(ClassName){
+    targetDiv = document.getElementsByClassName(ClassName)[0];
+    if (targetDiv.style.display !== "none") {
         targetDiv.style.display = "none";
       } else {
-          paypal5sfw();
         targetDiv.style.display = "block";
       }
 }
