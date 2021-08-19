@@ -1,5 +1,5 @@
 function initPayPalButton() {
-    const targetDiv = document.getElementById('paypal5SFW');
+    toggle_visibility('paypal5SFW');
     if (targetDiv.style.display !== "none") {
         targetDiv.style.display = "none";
     }
@@ -42,3 +42,6 @@ function initPayPalButton() {
       }
     }).render('#paypal-button-container');
   }
+  function toggle_visibility(id) {
+    document.getElementById(id).style.display = (document.getElementById(id).style.display !== "none") ? "none" : "inline-block";
+}
