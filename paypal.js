@@ -1,5 +1,4 @@
 function paypal5sfw() {
-    toggle_visibility('paypal5SFW');
     paypal.Buttons({
       style: {
         shape: 'pill',

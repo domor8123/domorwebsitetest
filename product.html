@@ -123,40 +123,14 @@
                         </div>
                       </div>
                 </div>
-                <a><button onclick="paypal5sfw()">Buy 5 Custom SFW Pics (5 USD)</button> </a>
+                <a><button onclick="paypal5sfw();toggle_visibility('paypal5SFW');">Buy 5 Custom SFW Pics (5 USD)</button> </a>
             </div>
             <div class="col-md-6" align="center">
                 <a href="./order.html"><button>Buy 10 Custom SFW Pics (10 USD)</button> </a>
             </div>
         </div>
-        
         <script src="https://www.paypal.com/sdk/js?client-id=ATxeJwgwKLoXmmgvhaHCN7KPZqjfbOtpQDBt1HKK-aH4SZPn8aD0PXoF72uF9xS41rbldocPuQPChD_y&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-        <script src="./paypal.js"></script>
-        <!--
-        <div class="row">
-            <div class="col-md-12">
-                <div id="smart-button-container">
-                    <div style="text-align: center;">
-                    <div style="margin-bottom: 1.25rem;">
-                        
-                        <h3 align="center"><strong>Paypal isn't integorrated and won't work</strong></h3>
-                        <h3 align="center"><strong> I have the right to refund and refuse an order if I don't wish to do the order. The order will typically take at most 2 weeks from the time ordered. 
-                        If you have any questions or concerns about your order feel free to <a href="./contact.html">Contact Me </a></strong></h3>
-                        <select id="item-options" name = "options">
-                        <option value="Custom SFW Pics  (5 Pics.)" price="5">Custom SFW(Safe For Work) Pics (5 pics.) - 5 USD</option>
-                        <option value="Custom SFW Pics (10 Pics.)" price="10">Custom SFW(Safe For Work) Pics (10 pics.) - 10 USD</option>
-                        <option value="Coding Project" price="30">Coding Project - 30 USD</option>
-                        </select>
-                        <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option></select>
-                    </div>
-                    <div id="paypal-button-container"></div>
-                    </div>
-                </div>
-                <script src="https://www.paypal.com/sdk/js?client-id={{paypalClient}}" data-sdk-integration-source="button-factory"></script>
-               
-            </div>
-        </div>-->
-        
+        <script src="./paypal.js"></script>   
     </body>
     <footer>
         <div class="row">
