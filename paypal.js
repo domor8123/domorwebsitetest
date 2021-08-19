@@ -36,4 +36,3 @@ function initPayPalButton() {
       }
     }).render('#paypal-button-container');
   }
-  document.getElementsByClassName('paypal5SFW').style.display = 'none';
