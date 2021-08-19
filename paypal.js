@@ -1,4 +1,5 @@
 function initPayPalButton() {
+    document.getElementsByClassName('paypal5SFW').style.display = 'inline-block';
     paypal.Buttons({
       style: {
         shape: 'pill',
@@ -10,7 +11,7 @@ function initPayPalButton() {
 
       createOrder: function(data, actions) {
         return actions.order.create({
-          purchase_units: [{"description":"This is a description","amount":{"currency_code":"USD","value":20}}]
+          purchase_units: [{"description":"This is a paypal button","amount":{"currency_code":"USD","value":5}}]
         });
       },
 
@@ -35,4 +36,3 @@ function initPayPalButton() {
       }
     }).render('#paypal-button-container');
   }
-  initPayPalButton();
