@@ -1,5 +1,5 @@
 function initPayPalButton() {
-    $("paypal5SFW").show();
+    document.getElementsByClassName('paypal5SFW').style.display = 'inline-block';
     paypal.Buttons({
       style: {
         shape: 'pill',
@@ -36,3 +36,4 @@ function initPayPalButton() {
       }
     }).render('#paypal-button-container');
   }
+  document.getElementsByClassName('paypal5SFW').style.display = 'none';
