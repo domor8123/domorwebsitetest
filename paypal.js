@@ -1,11 +1,4 @@
 function paypal5sfw() {
-    var executed = false;
-    return function() {
-        if (!executed) {
-            executed = true;
-            // do something
-        }
-    };
     paypal.Buttons({
       style: {
         shape: 'pill',
@@ -23,7 +16,7 @@ function paypal5sfw() {
 
       onApprove: function(data, actions) {
         return actions.order.capture().then(function(orderData) {
-          
+          //toogle function when div is shown or it duplicates
           // Full available details
           console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
 
@@ -47,6 +40,7 @@ function paypal5sfw() {
     if (targetDiv.style.display !== "none") {
         targetDiv.style.display = "none";
       } else {
+          paypal5sfw();
         targetDiv.style.display = "block";
       }
 }
