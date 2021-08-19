@@ -1,11 +1,5 @@
 function initPayPalButton() {
     toggle_visibility('paypal5SFW');
-    if (targetDiv.style.display !== "none") {
-        targetDiv.style.display = "none";
-    }
-    else {
-        targetDiv.style.display = "inline-block";
-    }
     paypal.Buttons({
       style: {
         shape: 'pill',
