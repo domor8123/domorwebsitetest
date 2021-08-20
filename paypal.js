@@ -49,5 +49,5 @@ function paypal5sfw() {
 }
 function removepaypal(ClassName){
     targetDiv = document.getElementsByClassName(ClassName)[0]; 
-    targetDiv.style.display = "none";
+    targetDiv.remove();
 }
