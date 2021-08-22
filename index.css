@@ -27,17 +27,20 @@
 }
 body{
     background-color: #ffd1dc;
-    color:#ff527c
 }
-h1,h2,h4,p{
+h1,h2,h4,h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#ff527c;
+}
+p{
+    color:black;
 }
 a, a:hover{
     color: #ff527c;
 }
 .questions {
     background-color: #ffd1dc;
-    color: #ff527c;
+    color: black;
     cursor: pointer;
     padding: 18px 18px 18px 50px;
     padding-left: 10%;
