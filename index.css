@@ -32,11 +32,8 @@ h1,h2,h4,h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#ff527c;
 }
-p{
+p, a, a:hover{
     color:black;
-}
-a, a:hover{
-    color: #ff527c;
 }
 .questions {
     background-color: #ffd1dc;
