@@ -22,9 +22,6 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.title {
-    color: #ff527c;
-}
 body{
     background-color: #ffd1dc;
 }
@@ -152,6 +149,9 @@ textarea{
   .tipLinks{
     position: relative;
     display: inline-block;
+}
+footer{
+    background-color: #e52b50;
 }
 .tipLinksDropdownContent{
     display: none;
