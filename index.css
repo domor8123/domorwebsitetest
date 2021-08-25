@@ -150,6 +150,9 @@ textarea{
     position: relative;
     display: inline-block;
 }
+footer{
+    background-color: #ffd1dc;
+}
 .tipLinksDropdownContent{
     display: none;
     position: absolute;
